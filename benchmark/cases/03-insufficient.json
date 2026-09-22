@@ -1,0 +1,62 @@
+{
+  "id": "03-insufficient",
+  "question": "What does the original Cedar note say?",
+  "answer": "- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.",
+  "sources": [
+    "document-03.md"
+  ],
+  "expected_statuses": [
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "16-mixed",
+  "question": "What does the original Pine note say?",
+  "answer": "- Pine cones open in dry conditions.\n- Pine shelters use locally milled boards and it is guaranteed forever.\n- Pine is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-16.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Pine cones open in dry conditions.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine shelters use locally milled boards and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    }
+  ]
+}

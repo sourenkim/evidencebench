@@ -1,0 +1,52 @@
+{
+  "id": "03-mixed",
+  "question": "What does the original Cedar note say?",
+  "answer": "- Cedar benches are treated with natural oil.\n- Cedar maps show walking paths in green and it is guaranteed forever.\n- Cedar is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-03.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Cedar benches are treated with natural oil.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar maps show walking paths in green and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    }
+  ]
+}

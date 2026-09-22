@@ -1,0 +1,52 @@
+{
+  "id": "19-mixed",
+  "question": "What does the original Spruce note say?",
+  "answer": "- Spruce needles are arranged around each twig.\n- Spruce cabins use thick wool curtains and it is guaranteed forever.\n- Spruce is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-19.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Spruce needles are arranged around each twig.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    },
+    {
+      "claim": "Spruce cabins use thick wool curtains and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    },
+    {
+      "claim": "Spruce is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    }
+  ]
+}

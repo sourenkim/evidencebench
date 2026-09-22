@@ -1,0 +1,52 @@
+{
+  "id": "13-mixed",
+  "question": "What does the original Maple note say?",
+  "answer": "- Maple syrup is collected during the thaw.\n- Maple taps are cleaned before storage and it is guaranteed forever.\n- Maple is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-13.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Maple syrup is collected during the thaw.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple taps are cleaned before storage and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    }
+  ]
+}

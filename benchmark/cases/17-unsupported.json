@@ -1,0 +1,62 @@
+{
+  "id": "17-unsupported",
+  "question": "What does the original Quartz note say?",
+  "answer": "- Quartz is made of glass.\n- Quartz is made of glass.\n- Quartz is made of glass.\n- Quartz is made of glass.\n- Quartz is made of glass.",
+  "sources": [
+    "document-17.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Quartz is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    },
+    {
+      "claim": "Quartz is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    },
+    {
+      "claim": "Quartz is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    },
+    {
+      "claim": "Quartz is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    },
+    {
+      "claim": "Quartz is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    }
+  ]
+}

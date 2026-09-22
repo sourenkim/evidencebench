@@ -1,0 +1,62 @@
+{
+  "id": "08-supported",
+  "question": "What does the original Harbor note say?",
+  "answer": "- Harbor lanterns are powered by rechargeable cells.\n- Harbor notices are posted beside the main gate.\n- Harbor crews inspect ropes before departure.\n- Harbor water samples are stored in glass bottles.\n- Harbor gates close during high waves.",
+  "sources": [
+    "document-08.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Harbor lanterns are powered by rechargeable cells.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor notices are posted beside the main gate.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor crews inspect ropes before departure.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor water samples are stored in glass bottles.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor gates close during high waves.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    }
+  ]
+}

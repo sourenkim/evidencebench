@@ -1,0 +1,62 @@
+{
+  "id": "14-supported",
+  "question": "What does the original Nettle note say?",
+  "answer": "- Nettle fibers can be spun into coarse thread.\n- Nettle gloves are kept near the workbench.\n- Nettle lessons begin with a safety briefing.\n- Nettle bundles dry under a covered roof.\n- Nettle recipes identify leaves by shape.",
+  "sources": [
+    "document-14.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Nettle fibers can be spun into coarse thread.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle gloves are kept near the workbench.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle lessons begin with a safety briefing.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle bundles dry under a covered roof.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle recipes identify leaves by shape.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    }
+  ]
+}

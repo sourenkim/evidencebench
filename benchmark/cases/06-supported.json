@@ -1,0 +1,62 @@
+{
+  "id": "06-supported",
+  "question": "What does the original Fjord note say?",
+  "answer": "- Fjord boats carry emergency blankets.\n- Fjord charts use a scale of one to ten thousand.\n- Fjord crossings are shortest in September.\n- Fjord stations keep radios on channel four.\n- Fjord permits are issued at the visitor center.",
+  "sources": [
+    "document-06.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Fjord boats carry emergency blankets.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord charts use a scale of one to ten thousand.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord crossings are shortest in September.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord stations keep radios on channel four.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord permits are issued at the visitor center.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    }
+  ]
+}

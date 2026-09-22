@@ -1,0 +1,62 @@
+{
+  "id": "14-unsupported",
+  "question": "What does the original Nettle note say?",
+  "answer": "- Nettle is made of glass.\n- Nettle is made of glass.\n- Nettle is made of glass.\n- Nettle is made of glass.\n- Nettle is made of glass.",
+  "sources": [
+    "document-14.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Nettle is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    }
+  ]
+}

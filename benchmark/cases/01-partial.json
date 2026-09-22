@@ -1,0 +1,62 @@
+{
+  "id": "01-partial",
+  "question": "What does the original Aurora note say?",
+  "answer": "- Aurora uses reflective panels to redirect winter light and it is guaranteed forever.\n- Aurora records observations in a public ledger and it is guaranteed forever.\n- Aurora gardens require less water during summer and it is guaranteed forever.\n- Aurora stores tools in numbered cabinets and it is guaranteed forever.\n- Aurora meetings begin on the first Monday of each month and it is guaranteed forever.",
+  "sources": [
+    "document-01.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Aurora uses reflective panels to redirect winter light and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora records observations in a public ledger and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora gardens require less water during summer and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora stores tools in numbered cabinets and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora meetings begin on the first Monday of each month and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    }
+  ]
+}

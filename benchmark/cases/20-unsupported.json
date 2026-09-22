@@ -1,0 +1,62 @@
+{
+  "id": "20-unsupported",
+  "question": "What does the original Willow note say?",
+  "answer": "- Willow is made of glass.\n- Willow is made of glass.\n- Willow is made of glass.\n- Willow is made of glass.\n- Willow is made of glass.",
+  "sources": [
+    "document-20.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Willow is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "15-supported",
+  "question": "What does the original Orchid note say?",
+  "answer": "- Orchid roots need air around their growing medium.\n- Orchid notes compare flowers by structure.\n- Orchid benches are shaded at midday.\n- Orchid pots have drainage holes.\n- Orchid collections are checked for pests weekly.",
+  "sources": [
+    "document-15.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Orchid roots need air around their growing medium.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid notes compare flowers by structure.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid benches are shaded at midday.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid pots have drainage holes.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid collections are checked for pests weekly.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    }
+  ]
+}

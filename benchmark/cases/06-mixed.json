@@ -1,0 +1,52 @@
+{
+  "id": "06-mixed",
+  "question": "What does the original Fjord note say?",
+  "answer": "- Fjord boats carry emergency blankets.\n- Fjord charts use a scale of one to ten thousand and it is guaranteed forever.\n- Fjord is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-06.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Fjord boats carry emergency blankets.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord charts use a scale of one to ten thousand and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    }
+  ]
+}

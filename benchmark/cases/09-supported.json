@@ -1,0 +1,62 @@
+{
+  "id": "09-supported",
+  "question": "What does the original Iris note say?",
+  "answer": "- Iris leaves are narrow and sword-shaped.\n- Iris beds need regular weeding in spring.\n- Iris labels include the year of planting.\n- Iris bulbs are lifted before deep frost.\n- Iris displays are arranged by color.",
+  "sources": [
+    "document-09.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Iris leaves are narrow and sword-shaped.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    },
+    {
+      "claim": "Iris beds need regular weeding in spring.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    },
+    {
+      "claim": "Iris labels include the year of planting.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    },
+    {
+      "claim": "Iris bulbs are lifted before deep frost.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    },
+    {
+      "claim": "Iris displays are arranged by color.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    }
+  ]
+}

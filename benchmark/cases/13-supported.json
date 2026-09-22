@@ -1,0 +1,62 @@
+{
+  "id": "13-supported",
+  "question": "What does the original Maple note say?",
+  "answer": "- Maple syrup is collected during the thaw.\n- Maple taps are cleaned before storage.\n- Maple barrels are kept in a cool room.\n- Maple signs use a red leaf symbol.\n- Maple demonstrations last about forty minutes.",
+  "sources": [
+    "document-13.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Maple syrup is collected during the thaw.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple taps are cleaned before storage.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple barrels are kept in a cool room.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple signs use a red leaf symbol.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple demonstrations last about forty minutes.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    }
+  ]
+}

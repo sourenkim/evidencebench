@@ -1,0 +1,62 @@
+{
+  "id": "07-supported",
+  "question": "What does the original Grove note say?",
+  "answer": "- Grove soil retains moisture under leaf cover.\n- Grove paths are inspected after heavy rain.\n- Grove surveys use a six-point checklist.\n- Grove signs are placed at every junction.\n- Grove seedlings are protected by woven guards.",
+  "sources": [
+    "document-07.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Grove soil retains moisture under leaf cover.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove paths are inspected after heavy rain.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove surveys use a six-point checklist.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove signs are placed at every junction.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove seedlings are protected by woven guards.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    }
+  ]
+}

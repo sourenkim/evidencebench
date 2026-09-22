@@ -1,0 +1,62 @@
+{
+  "id": "13-partial",
+  "question": "What does the original Maple note say?",
+  "answer": "- Maple syrup is collected during the thaw and it is guaranteed forever.\n- Maple taps are cleaned before storage and it is guaranteed forever.\n- Maple barrels are kept in a cool room and it is guaranteed forever.\n- Maple signs use a red leaf symbol and it is guaranteed forever.\n- Maple demonstrations last about forty minutes and it is guaranteed forever.",
+  "sources": [
+    "document-13.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Maple syrup is collected during the thaw and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple taps are cleaned before storage and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple barrels are kept in a cool room and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple signs use a red leaf symbol and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple demonstrations last about forty minutes and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    }
+  ]
+}

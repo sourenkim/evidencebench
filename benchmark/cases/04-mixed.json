@@ -1,0 +1,52 @@
+{
+  "id": "04-mixed",
+  "question": "What does the original Dahlia note say?",
+  "answer": "- Dahlia flowers grow best in well-drained soil.\n- Dahlia guides include a monthly planting table and it is guaranteed forever.\n- Dahlia is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-04.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Dahlia flowers grow best in well-drained soil.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia guides include a monthly planting table and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    }
+  ]
+}

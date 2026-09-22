@@ -1,0 +1,52 @@
+{
+  "id": "17-mixed",
+  "question": "What does the original Quartz note say?",
+  "answer": "- Quartz fragments are sorted by surface color.\n- Quartz displays include a magnifying lens and it is guaranteed forever.\n- Quartz is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-17.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Quartz fragments are sorted by surface color.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    },
+    {
+      "claim": "Quartz displays include a magnifying lens and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    },
+    {
+      "claim": "Quartz is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-17.md"
+        }
+      ]
+    }
+  ]
+}

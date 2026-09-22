@@ -1,0 +1,62 @@
+{
+  "id": "05-partial",
+  "question": "What does the original Ember note say?",
+  "answer": "- Ember stoves use dry hardwood for fuel and it is guaranteed forever.\n- Ember safety cards list three warning signs and it is guaranteed forever.\n- Ember cabins have a metal water bucket and it is guaranteed forever.\n- Ember inspections are logged by hand and it is guaranteed forever.\n- Ember trails close during severe wind and it is guaranteed forever.",
+  "sources": [
+    "document-05.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Ember stoves use dry hardwood for fuel and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember safety cards list three warning signs and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember cabins have a metal water bucket and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember inspections are logged by hand and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember trails close during severe wind and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    }
+  ]
+}

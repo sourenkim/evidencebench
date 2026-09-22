@@ -1,0 +1,62 @@
+{
+  "id": "02-insufficient",
+  "question": "What does the original Birch note say?",
+  "answer": "- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.",
+  "sources": [
+    "document-02.md"
+  ],
+  "expected_statuses": [
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    }
+  ]
+}

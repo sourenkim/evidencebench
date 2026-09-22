@@ -1,0 +1,62 @@
+{
+  "id": "16-unsupported",
+  "question": "What does the original Pine note say?",
+  "answer": "- Pine is made of glass.\n- Pine is made of glass.\n- Pine is made of glass.\n- Pine is made of glass.\n- Pine is made of glass.",
+  "sources": [
+    "document-16.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Pine is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    }
+  ]
+}

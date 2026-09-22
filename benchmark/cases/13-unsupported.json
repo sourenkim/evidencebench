@@ -1,0 +1,62 @@
+{
+  "id": "13-unsupported",
+  "question": "What does the original Maple note say?",
+  "answer": "- Maple is made of glass.\n- Maple is made of glass.\n- Maple is made of glass.\n- Maple is made of glass.\n- Maple is made of glass.",
+  "sources": [
+    "document-13.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Maple is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    },
+    {
+      "claim": "Maple is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-13.md"
+        }
+      ]
+    }
+  ]
+}

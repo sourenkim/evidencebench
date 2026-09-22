@@ -1,0 +1,62 @@
+{
+  "id": "18-partial",
+  "question": "What does the original Reed note say?",
+  "answer": "- Reed beds provide cover for small birds and it is guaranteed forever.\n- Reed baskets are woven while the stalks are fresh and it is guaranteed forever.\n- Reed cutters wear waterproof boots and it is guaranteed forever.\n- Reed channels are measured each autumn and it is guaranteed forever.\n- Reed workshops reuse clean offcuts and it is guaranteed forever.",
+  "sources": [
+    "document-18.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Reed beds provide cover for small birds and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed baskets are woven while the stalks are fresh and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed cutters wear waterproof boots and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed channels are measured each autumn and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed workshops reuse clean offcuts and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    }
+  ]
+}

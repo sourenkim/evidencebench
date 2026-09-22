@@ -1,0 +1,52 @@
+{
+  "id": "01-mixed",
+  "question": "What does the original Aurora note say?",
+  "answer": "- Aurora uses reflective panels to redirect winter light.\n- Aurora records observations in a public ledger and it is guaranteed forever.\n- Aurora is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-01.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Aurora uses reflective panels to redirect winter light.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora records observations in a public ledger and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    }
+  ]
+}

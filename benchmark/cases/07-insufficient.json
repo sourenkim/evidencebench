@@ -1,0 +1,62 @@
+{
+  "id": "07-insufficient",
+  "question": "What does the original Grove note say?",
+  "answer": "- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.\n- The moon is made of cheese.",
+  "sources": [
+    "document-07.md"
+  ],
+  "expected_statuses": [
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    }
+  ]
+}

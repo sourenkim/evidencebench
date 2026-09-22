@@ -1,0 +1,62 @@
+{
+  "id": "12-supported",
+  "question": "What does the original Lichen note say?",
+  "answer": "- Lichen grows slowly on undisturbed stone.\n- Lichen surveys record color and texture.\n- Lichen samples are not removed from protected rocks.\n- Lichen walks follow a marked loop.\n- Lichen photographs include a scale card.",
+  "sources": [
+    "document-12.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Lichen grows slowly on undisturbed stone.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen surveys record color and texture.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen samples are not removed from protected rocks.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen walks follow a marked loop.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen photographs include a scale card.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    }
+  ]
+}

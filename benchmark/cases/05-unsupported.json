@@ -1,0 +1,62 @@
+{
+  "id": "05-unsupported",
+  "question": "What does the original Ember note say?",
+  "answer": "- Ember is made of glass.\n- Ember is made of glass.\n- Ember is made of glass.\n- Ember is made of glass.\n- Ember is made of glass.",
+  "sources": [
+    "document-05.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Ember is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    }
+  ]
+}

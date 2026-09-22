@@ -1,0 +1,52 @@
+{
+  "id": "14-mixed",
+  "question": "What does the original Nettle note say?",
+  "answer": "- Nettle fibers can be spun into coarse thread.\n- Nettle gloves are kept near the workbench and it is guaranteed forever.\n- Nettle is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-14.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Nettle fibers can be spun into coarse thread.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle gloves are kept near the workbench and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "Nettle is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-14.md"
+        }
+      ]
+    }
+  ]
+}

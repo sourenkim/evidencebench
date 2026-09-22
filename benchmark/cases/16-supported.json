@@ -1,0 +1,62 @@
+{
+  "id": "16-supported",
+  "question": "What does the original Pine note say?",
+  "answer": "- Pine cones open in dry conditions.\n- Pine shelters use locally milled boards.\n- Pine trails are cleared in early June.\n- Pine signs include distance markers.\n- Pine seedlings tolerate sandy ground.",
+  "sources": [
+    "document-16.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Pine cones open in dry conditions.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine shelters use locally milled boards.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine trails are cleared in early June.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine signs include distance markers.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine seedlings tolerate sandy ground.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    }
+  ]
+}

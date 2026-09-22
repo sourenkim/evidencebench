@@ -1,0 +1,62 @@
+{
+  "id": "02-partial",
+  "question": "What does the original Birch note say?",
+  "answer": "- Birch paper is made from processed wood pulp and it is guaranteed forever.\n- Birch labels use blue ink for archive copies and it is guaranteed forever.\n- Birch workshops open at nine in the morning and it is guaranteed forever.\n- Birch routes are marked with square signs and it is guaranteed forever.\n- Birch seeds are kept in dry envelopes and it is guaranteed forever.",
+  "sources": [
+    "document-02.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Birch paper is made from processed wood pulp and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    },
+    {
+      "claim": "Birch labels use blue ink for archive copies and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    },
+    {
+      "claim": "Birch workshops open at nine in the morning and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    },
+    {
+      "claim": "Birch routes are marked with square signs and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    },
+    {
+      "claim": "Birch seeds are kept in dry envelopes and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-02.md"
+        }
+      ]
+    }
+  ]
+}

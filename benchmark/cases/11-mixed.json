@@ -1,0 +1,52 @@
+{
+  "id": "11-mixed",
+  "question": "What does the original Kite note say?",
+  "answer": "- Kite strings are stored on labeled reels.\n- Kite flights require a clear field and it is guaranteed forever.\n- Kite is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-11.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Kite strings are stored on labeled reels.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite flights require a clear field and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    }
+  ]
+}

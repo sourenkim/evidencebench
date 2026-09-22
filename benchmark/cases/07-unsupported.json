@@ -1,0 +1,62 @@
+{
+  "id": "07-unsupported",
+  "question": "What does the original Grove note say?",
+  "answer": "- Grove is made of glass.\n- Grove is made of glass.\n- Grove is made of glass.\n- Grove is made of glass.\n- Grove is made of glass.",
+  "sources": [
+    "document-07.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Grove is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "08-mixed",
+  "question": "What does the original Harbor note say?",
+  "answer": "- Harbor lanterns are powered by rechargeable cells.\n- Harbor notices are posted beside the main gate and it is guaranteed forever.\n- Harbor is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-08.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Harbor lanterns are powered by rechargeable cells.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor notices are posted beside the main gate and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    }
+  ]
+}

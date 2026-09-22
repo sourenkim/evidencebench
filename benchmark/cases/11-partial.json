@@ -1,0 +1,62 @@
+{
+  "id": "11-partial",
+  "question": "What does the original Kite note say?",
+  "answer": "- Kite strings are stored on labeled reels and it is guaranteed forever.\n- Kite flights require a clear field and it is guaranteed forever.\n- Kite clubs meet beside the old mill and it is guaranteed forever.\n- Kite frames are made from light bamboo and it is guaranteed forever.\n- Kite repairs are recorded in a logbook and it is guaranteed forever.",
+  "sources": [
+    "document-11.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Kite strings are stored on labeled reels and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite flights require a clear field and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite clubs meet beside the old mill and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite frames are made from light bamboo and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite repairs are recorded in a logbook and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    }
+  ]
+}

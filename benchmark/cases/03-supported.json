@@ -1,0 +1,62 @@
+{
+  "id": "03-supported",
+  "question": "What does the original Cedar note say?",
+  "answer": "- Cedar benches are treated with natural oil.\n- Cedar maps show walking paths in green.\n- Cedar volunteers sort materials by weight.\n- Cedar lectures take place in the north hall.\n- Cedar records are backed up every Friday.",
+  "sources": [
+    "document-03.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Cedar benches are treated with natural oil.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar maps show walking paths in green.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar volunteers sort materials by weight.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar lectures take place in the north hall.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar records are backed up every Friday.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "16-partial",
+  "question": "What does the original Pine note say?",
+  "answer": "- Pine cones open in dry conditions and it is guaranteed forever.\n- Pine shelters use locally milled boards and it is guaranteed forever.\n- Pine trails are cleared in early June and it is guaranteed forever.\n- Pine signs include distance markers and it is guaranteed forever.\n- Pine seedlings tolerate sandy ground and it is guaranteed forever.",
+  "sources": [
+    "document-16.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Pine cones open in dry conditions and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine shelters use locally milled boards and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine trails are cleared in early June and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine signs include distance markers and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    },
+    {
+      "claim": "Pine seedlings tolerate sandy ground and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-16.md"
+        }
+      ]
+    }
+  ]
+}

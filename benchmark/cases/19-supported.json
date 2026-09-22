@@ -1,0 +1,62 @@
+{
+  "id": "19-supported",
+  "question": "What does the original Spruce note say?",
+  "answer": "- Spruce needles are arranged around each twig.\n- Spruce cabins use thick wool curtains.\n- Spruce records include tree height measurements.\n- Spruce paths are quiet in winter.\n- Spruce seedlings grow in shaded trays.",
+  "sources": [
+    "document-19.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Spruce needles are arranged around each twig.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    },
+    {
+      "claim": "Spruce cabins use thick wool curtains.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    },
+    {
+      "claim": "Spruce records include tree height measurements.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    },
+    {
+      "claim": "Spruce paths are quiet in winter.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    },
+    {
+      "claim": "Spruce seedlings grow in shaded trays.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-19.md"
+        }
+      ]
+    }
+  ]
+}

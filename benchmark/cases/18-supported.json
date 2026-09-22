@@ -1,0 +1,62 @@
+{
+  "id": "18-supported",
+  "question": "What does the original Reed note say?",
+  "answer": "- Reed beds provide cover for small birds.\n- Reed baskets are woven while the stalks are fresh.\n- Reed cutters wear waterproof boots.\n- Reed channels are measured each autumn.\n- Reed workshops reuse clean offcuts.",
+  "sources": [
+    "document-18.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Reed beds provide cover for small birds.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed baskets are woven while the stalks are fresh.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed cutters wear waterproof boots.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed channels are measured each autumn.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed workshops reuse clean offcuts.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    }
+  ]
+}

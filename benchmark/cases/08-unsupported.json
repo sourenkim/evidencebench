@@ -1,0 +1,62 @@
+{
+  "id": "08-unsupported",
+  "question": "What does the original Harbor note say?",
+  "answer": "- Harbor is made of glass.\n- Harbor is made of glass.\n- Harbor is made of glass.\n- Harbor is made of glass.\n- Harbor is made of glass.",
+  "sources": [
+    "document-08.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Harbor is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    }
+  ]
+}

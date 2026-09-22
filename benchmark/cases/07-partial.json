@@ -1,0 +1,62 @@
+{
+  "id": "07-partial",
+  "question": "What does the original Grove note say?",
+  "answer": "- Grove soil retains moisture under leaf cover and it is guaranteed forever.\n- Grove paths are inspected after heavy rain and it is guaranteed forever.\n- Grove surveys use a six-point checklist and it is guaranteed forever.\n- Grove signs are placed at every junction and it is guaranteed forever.\n- Grove seedlings are protected by woven guards and it is guaranteed forever.",
+  "sources": [
+    "document-07.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Grove soil retains moisture under leaf cover and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove paths are inspected after heavy rain and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove surveys use a six-point checklist and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove signs are placed at every junction and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    },
+    {
+      "claim": "Grove seedlings are protected by woven guards and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-07.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "11-unsupported",
+  "question": "What does the original Kite note say?",
+  "answer": "- Kite is made of glass.\n- Kite is made of glass.\n- Kite is made of glass.\n- Kite is made of glass.\n- Kite is made of glass.",
+  "sources": [
+    "document-11.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Kite is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    },
+    {
+      "claim": "Kite is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-11.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "12-mixed",
+  "question": "What does the original Lichen note say?",
+  "answer": "- Lichen grows slowly on undisturbed stone.\n- Lichen surveys record color and texture and it is guaranteed forever.\n- Lichen is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-12.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Lichen grows slowly on undisturbed stone.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen surveys record color and texture and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    }
+  ]
+}

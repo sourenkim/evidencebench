@@ -1,0 +1,62 @@
+{
+  "id": "09-unsupported",
+  "question": "What does the original Iris note say?",
+  "answer": "- Iris is made of glass.\n- Iris is made of glass.\n- Iris is made of glass.\n- Iris is made of glass.\n- Iris is made of glass.",
+  "sources": [
+    "document-09.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Iris is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    },
+    {
+      "claim": "Iris is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    },
+    {
+      "claim": "Iris is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    },
+    {
+      "claim": "Iris is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    },
+    {
+      "claim": "Iris is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-09.md"
+        }
+      ]
+    }
+  ]
+}

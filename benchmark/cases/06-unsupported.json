@@ -1,0 +1,62 @@
+{
+  "id": "06-unsupported",
+  "question": "What does the original Fjord note say?",
+  "answer": "- Fjord is made of glass.\n- Fjord is made of glass.\n- Fjord is made of glass.\n- Fjord is made of glass.\n- Fjord is made of glass.",
+  "sources": [
+    "document-06.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Fjord is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    }
+  ]
+}

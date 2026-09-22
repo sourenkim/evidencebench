@@ -1,0 +1,62 @@
+{
+  "id": "01-supported",
+  "question": "What does the original Aurora note say?",
+  "answer": "- Aurora uses reflective panels to redirect winter light.\n- Aurora records observations in a public ledger.\n- Aurora gardens require less water during summer.\n- Aurora stores tools in numbered cabinets.\n- Aurora meetings begin on the first Monday of each month.",
+  "sources": [
+    "document-01.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Aurora uses reflective panels to redirect winter light.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora records observations in a public ledger.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora gardens require less water during summer.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora stores tools in numbered cabinets.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    },
+    {
+      "claim": "Aurora meetings begin on the first Monday of each month.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-01.md"
+        }
+      ]
+    }
+  ]
+}

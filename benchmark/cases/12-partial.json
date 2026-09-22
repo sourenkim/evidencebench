@@ -1,0 +1,62 @@
+{
+  "id": "12-partial",
+  "question": "What does the original Lichen note say?",
+  "answer": "- Lichen grows slowly on undisturbed stone and it is guaranteed forever.\n- Lichen surveys record color and texture and it is guaranteed forever.\n- Lichen samples are not removed from protected rocks and it is guaranteed forever.\n- Lichen walks follow a marked loop and it is guaranteed forever.\n- Lichen photographs include a scale card and it is guaranteed forever.",
+  "sources": [
+    "document-12.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Lichen grows slowly on undisturbed stone and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen surveys record color and texture and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen samples are not removed from protected rocks and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen walks follow a marked loop and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    },
+    {
+      "claim": "Lichen photographs include a scale card and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-12.md"
+        }
+      ]
+    }
+  ]
+}

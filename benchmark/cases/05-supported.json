@@ -1,0 +1,62 @@
+{
+  "id": "05-supported",
+  "question": "What does the original Ember note say?",
+  "answer": "- Ember stoves use dry hardwood for fuel.\n- Ember safety cards list three warning signs.\n- Ember cabins have a metal water bucket.\n- Ember inspections are logged by hand.\n- Ember trails close during severe wind.",
+  "sources": [
+    "document-05.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Ember stoves use dry hardwood for fuel.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember safety cards list three warning signs.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember cabins have a metal water bucket.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember inspections are logged by hand.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember trails close during severe wind.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    }
+  ]
+}

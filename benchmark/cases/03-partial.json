@@ -1,0 +1,62 @@
+{
+  "id": "03-partial",
+  "question": "What does the original Cedar note say?",
+  "answer": "- Cedar benches are treated with natural oil and it is guaranteed forever.\n- Cedar maps show walking paths in green and it is guaranteed forever.\n- Cedar volunteers sort materials by weight and it is guaranteed forever.\n- Cedar lectures take place in the north hall and it is guaranteed forever.\n- Cedar records are backed up every Friday and it is guaranteed forever.",
+  "sources": [
+    "document-03.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Cedar benches are treated with natural oil and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar maps show walking paths in green and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar volunteers sort materials by weight and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar lectures take place in the north hall and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar records are backed up every Friday and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    }
+  ]
+}

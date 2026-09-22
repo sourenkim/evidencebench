@@ -1,0 +1,62 @@
+{
+  "id": "15-unsupported",
+  "question": "What does the original Orchid note say?",
+  "answer": "- Orchid is made of glass.\n- Orchid is made of glass.\n- Orchid is made of glass.\n- Orchid is made of glass.\n- Orchid is made of glass.",
+  "sources": [
+    "document-15.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Orchid is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    }
+  ]
+}

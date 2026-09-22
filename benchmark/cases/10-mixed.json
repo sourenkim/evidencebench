@@ -1,0 +1,52 @@
+{
+  "id": "10-mixed",
+  "question": "What does the original Juniper note say?",
+  "answer": "- Juniper berries are collected in small baskets.\n- Juniper fences reduce wind across the field and it is guaranteed forever.\n- Juniper is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-10.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Juniper berries are collected in small baskets.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper fences reduce wind across the field and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    }
+  ]
+}

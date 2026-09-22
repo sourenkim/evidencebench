@@ -1,0 +1,62 @@
+{
+  "id": "03-unsupported",
+  "question": "What does the original Cedar note say?",
+  "answer": "- Cedar is made of glass.\n- Cedar is made of glass.\n- Cedar is made of glass.\n- Cedar is made of glass.\n- Cedar is made of glass.",
+  "sources": [
+    "document-03.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Cedar is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    },
+    {
+      "claim": "Cedar is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-03.md"
+        }
+      ]
+    }
+  ]
+}

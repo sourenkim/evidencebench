@@ -1,0 +1,62 @@
+{
+  "id": "20-supported",
+  "question": "What does the original Willow note say?",
+  "answer": "- Willow branches bend easily when soaked.\n- Willow fences are renewed each spring.\n- Willow baskets are dried on open shelves.\n- Willow lessons demonstrate three weaving patterns.\n- Willow cuttings root in damp soil.",
+  "sources": [
+    "document-20.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Willow branches bend easily when soaked.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow fences are renewed each spring.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow baskets are dried on open shelves.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow lessons demonstrate three weaving patterns.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow cuttings root in damp soil.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    }
+  ]
+}

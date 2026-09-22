@@ -1,0 +1,62 @@
+{
+  "id": "10-supported",
+  "question": "What does the original Juniper note say?",
+  "answer": "- Juniper berries are collected in small baskets.\n- Juniper fences reduce wind across the field.\n- Juniper notes are written on recycled cards.\n- Juniper paths have wooden handrails.\n- Juniper saplings are watered twice a week.",
+  "sources": [
+    "document-10.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Juniper berries are collected in small baskets.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper fences reduce wind across the field.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper notes are written on recycled cards.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper paths have wooden handrails.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper saplings are watered twice a week.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    }
+  ]
+}

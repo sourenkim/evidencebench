@@ -1,0 +1,62 @@
+{
+  "id": "08-partial",
+  "question": "What does the original Harbor note say?",
+  "answer": "- Harbor lanterns are powered by rechargeable cells and it is guaranteed forever.\n- Harbor notices are posted beside the main gate and it is guaranteed forever.\n- Harbor crews inspect ropes before departure and it is guaranteed forever.\n- Harbor water samples are stored in glass bottles and it is guaranteed forever.\n- Harbor gates close during high waves and it is guaranteed forever.",
+  "sources": [
+    "document-08.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Harbor lanterns are powered by rechargeable cells and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor notices are posted beside the main gate and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor crews inspect ropes before departure and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor water samples are stored in glass bottles and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    },
+    {
+      "claim": "Harbor gates close during high waves and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-08.md"
+        }
+      ]
+    }
+  ]
+}

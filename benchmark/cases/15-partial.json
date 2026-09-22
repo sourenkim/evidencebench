@@ -1,0 +1,62 @@
+{
+  "id": "15-partial",
+  "question": "What does the original Orchid note say?",
+  "answer": "- Orchid roots need air around their growing medium and it is guaranteed forever.\n- Orchid notes compare flowers by structure and it is guaranteed forever.\n- Orchid benches are shaded at midday and it is guaranteed forever.\n- Orchid pots have drainage holes and it is guaranteed forever.\n- Orchid collections are checked for pests weekly and it is guaranteed forever.",
+  "sources": [
+    "document-15.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Orchid roots need air around their growing medium and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid notes compare flowers by structure and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid benches are shaded at midday and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid pots have drainage holes and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    },
+    {
+      "claim": "Orchid collections are checked for pests weekly and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-15.md"
+        }
+      ]
+    }
+  ]
+}

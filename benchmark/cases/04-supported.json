@@ -1,0 +1,62 @@
+{
+  "id": "04-supported",
+  "question": "What does the original Dahlia note say?",
+  "answer": "- Dahlia flowers grow best in well-drained soil.\n- Dahlia guides include a monthly planting table.\n- Dahlia tools are cleaned after every use.\n- Dahlia plots receive morning sunlight.\n- Dahlia seeds remain viable for two years.",
+  "sources": [
+    "document-04.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Dahlia flowers grow best in well-drained soil.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia guides include a monthly planting table.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia tools are cleaned after every use.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia plots receive morning sunlight.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia seeds remain viable for two years.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    }
+  ]
+}

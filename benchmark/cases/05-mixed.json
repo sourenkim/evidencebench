@@ -1,0 +1,52 @@
+{
+  "id": "05-mixed",
+  "question": "What does the original Ember note say?",
+  "answer": "- Ember stoves use dry hardwood for fuel.\n- Ember safety cards list three warning signs and it is guaranteed forever.\n- Ember is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-05.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Ember stoves use dry hardwood for fuel.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember safety cards list three warning signs and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "Ember is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-05.md"
+        }
+      ]
+    }
+  ]
+}

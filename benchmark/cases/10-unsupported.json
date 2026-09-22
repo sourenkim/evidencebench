@@ -1,0 +1,62 @@
+{
+  "id": "10-unsupported",
+  "question": "What does the original Juniper note say?",
+  "answer": "- Juniper is made of glass.\n- Juniper is made of glass.\n- Juniper is made of glass.\n- Juniper is made of glass.\n- Juniper is made of glass.",
+  "sources": [
+    "document-10.md"
+  ],
+  "expected_statuses": [
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED",
+    "UNSUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Juniper is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    },
+    {
+      "claim": "Juniper is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-10.md"
+        }
+      ]
+    }
+  ]
+}

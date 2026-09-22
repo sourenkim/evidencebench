@@ -1,0 +1,62 @@
+{
+  "id": "06-partial",
+  "question": "What does the original Fjord note say?",
+  "answer": "- Fjord boats carry emergency blankets and it is guaranteed forever.\n- Fjord charts use a scale of one to ten thousand and it is guaranteed forever.\n- Fjord crossings are shortest in September and it is guaranteed forever.\n- Fjord stations keep radios on channel four and it is guaranteed forever.\n- Fjord permits are issued at the visitor center and it is guaranteed forever.",
+  "sources": [
+    "document-06.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Fjord boats carry emergency blankets and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord charts use a scale of one to ten thousand and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord crossings are shortest in September and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord stations keep radios on channel four and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    },
+    {
+      "claim": "Fjord permits are issued at the visitor center and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-06.md"
+        }
+      ]
+    }
+  ]
+}

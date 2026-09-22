@@ -1,0 +1,62 @@
+{
+  "id": "20-partial",
+  "question": "What does the original Willow note say?",
+  "answer": "- Willow branches bend easily when soaked and it is guaranteed forever.\n- Willow fences are renewed each spring and it is guaranteed forever.\n- Willow baskets are dried on open shelves and it is guaranteed forever.\n- Willow lessons demonstrate three weaving patterns and it is guaranteed forever.\n- Willow cuttings root in damp soil and it is guaranteed forever.",
+  "sources": [
+    "document-20.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Willow branches bend easily when soaked and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow fences are renewed each spring and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow baskets are dried on open shelves and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow lessons demonstrate three weaving patterns and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    },
+    {
+      "claim": "Willow cuttings root in damp soil and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-20.md"
+        }
+      ]
+    }
+  ]
+}

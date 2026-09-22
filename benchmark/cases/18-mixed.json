@@ -1,0 +1,52 @@
+{
+  "id": "18-mixed",
+  "question": "What does the original Reed note say?",
+  "answer": "- Reed beds provide cover for small birds.\n- Reed baskets are woven while the stalks are fresh and it is guaranteed forever.\n- Reed is made of glass.\n- The moon is made of cheese.",
+  "sources": [
+    "document-18.md"
+  ],
+  "expected_statuses": [
+    "SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "UNSUPPORTED",
+    "INSUFFICIENT_EVIDENCE"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Reed beds provide cover for small birds.",
+      "label": "SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed baskets are woven while the stalks are fresh and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "Reed is made of glass.",
+      "label": "UNSUPPORTED",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    },
+    {
+      "claim": "The moon is made of cheese.",
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence": [
+        {
+          "document": "document-18.md"
+        }
+      ]
+    }
+  ]
+}

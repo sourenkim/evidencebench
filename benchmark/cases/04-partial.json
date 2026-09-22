@@ -1,0 +1,62 @@
+{
+  "id": "04-partial",
+  "question": "What does the original Dahlia note say?",
+  "answer": "- Dahlia flowers grow best in well-drained soil and it is guaranteed forever.\n- Dahlia guides include a monthly planting table and it is guaranteed forever.\n- Dahlia tools are cleaned after every use and it is guaranteed forever.\n- Dahlia plots receive morning sunlight and it is guaranteed forever.\n- Dahlia seeds remain viable for two years and it is guaranteed forever.",
+  "sources": [
+    "document-04.md"
+  ],
+  "expected_statuses": [
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED",
+    "PARTIALLY_SUPPORTED"
+  ],
+  "ground_truth": [
+    {
+      "claim": "Dahlia flowers grow best in well-drained soil and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia guides include a monthly planting table and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia tools are cleaned after every use and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia plots receive morning sunlight and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    },
+    {
+      "claim": "Dahlia seeds remain viable for two years and it is guaranteed forever.",
+      "label": "PARTIALLY_SUPPORTED",
+      "evidence": [
+        {
+          "document": "document-04.md"
+        }
+      ]
+    }
+  ]
+}
